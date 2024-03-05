@@ -32,7 +32,7 @@ const Cryptocurrencies = ({simplified}) => {
         {/* NO {} in order to return something instantly */}
         {cryptos?.map((currency)=>(
           <Col xs={24} sm={12} lg={6} className='crypto-card' key={currency.id}>
-            <Link to={`/crypt${currency.id}`}>
+                   <Link key={currency.uuid} to={`/crypto/${currency.uuid}`}>
               <Card
                 title={`${currency.rank}. ${currency.name}`}
                 extra={<img className='crypto-image' src={currency.iconUrl}/>}
