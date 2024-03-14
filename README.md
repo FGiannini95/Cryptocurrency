@@ -12,4 +12,4 @@ https://github.com/FGiannini95/Cryptocurrency.git
 4. Start the application:
    - npm start
 ## Videos
-- You can see my explication of the project in the following link:
+- You can see my explication of the project in the following link: https://www.youtube.com/watch?v=eLjDGVLtdj4
